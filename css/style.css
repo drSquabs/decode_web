@@ -1,0 +1,179 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+/* Style */
+* {
+	box-sizing: border-box;
+}
+
+html, body, div {
+  height: 100%;
+}
+
+#wrapper {
+	
+}
+
+/* Nav Links */
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  padding: 16px;
+  font-family: 'Oswald', sans-serif;
+  transition:ease-in .5s;
+}
+
+nav a:link {
+  color: #ffcc00;
+  text-decoration: none;
+  padding: 6px 10px;
+}
+
+nav a:visited {
+  color: #C0C0C0;
+}
+
+
+nav a:hover {
+  color: #666666;
+}
+
+nav a:active {
+  color: #333;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+/*apply the center class to nav for a centered layout*/
+nav.center {
+  text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: center
+}
+
+/* SPLIT PAGE LAYOUT */
+/*
+.bottom {
+  display: table;
+  width: 100%;
+}
+
+.left-half {
+  background: 	background: rgba(255,255,255,0.5);
+  position: absolute;
+  left: 0px;
+  width: 50%;
+}
+
+.right-half {
+  background-color: #b6701e;
+  position: absolute;
+  right: 0px;
+  width: 50%;
+}
+*/
+
+
+/* Pattern styles */
+/*
+.left-half {
+  background-color: #ff9e2c;
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.right-half {
+  background-color: #b6701e;
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+*/
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%); 
+  width: 100%;
+  padding: 20px;
+}
+
+#title {
+	text-align:center;
+	margin-top: 40px;
+}
+
+#top {
+  background: #000000 url(../images/fight.gif) no-repeat center center fixed;
+  background-size: cover;
+}
+
+#top-p {
+  background: #000000 url(../images/dooku.gif) no-repeat center center fixed;
+  background-size: cover;
+}
+
+#top-o {
+  background: #000000 url(../images/empire.gif) no-repeat center center fixed;
+  background-size: cover;
+}
+
+#top-a {
+  background: #000000 url(../images/ren.gif) no-repeat center center fixed;
+  background-size: cover;
+}
+
+section {
+  height: 100%;
+  position: relative;
+}
+
+#front {
+	background: rgba(255,255,255,0.5);
+	margin-top: 60px;
+	padding: 30px;
+	margin-left: 50px;
+	height: 100%;
+	width: 450px;
+}
+
+#head-tag {
+	color:#E5DA37;
+	font-size: 40pt;
+	margin-bottom: 20px;
+	font-family: 'Oswald', sans-serif;
+	text-shadow: 4px 4px 0 #000000, 6px 6px 0 #333;
+	cursor: default;
+	transition: all .5s;
+
+}
+
+#head-tag:hover {
+		text-shadow: 4px 4px 4px #000000, 6px 6px 6px #333;
+}
+
+section p {
+	color: white;
+	margin-bottom: 20px;	
+}
+
+img {
+	margin: 0 auto;
+	width: 300px;
+	min-width: 100px;
+	
+}
+
